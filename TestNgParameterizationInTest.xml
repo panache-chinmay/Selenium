@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+
+ <!-- <parameter name = "URL" value ="qaclickacademy.com"/> -->  
+   <test name="Mobile Testcases" >
+   <parameter name = "URL" value ="mobiletestcases.com"/>
+    <classes>
+       <class name="testNgDay4.parameterizationIntestNg"/>
+    </classes>
+  </test>
+  <test name="Web Testcases" >
+  	<parameter name = "URL" value ="WebTestcases.com"/>
+    <classes>
+       <class name="testNgDay4.parameterizationInTestNgB"/>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->
+
+

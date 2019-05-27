@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test thread-count="5" name="PersonalLoan">
+    <classes>
+      <class name="testNgtutorial.DayOneWhytestNgAndItsAdvantages"/>
+      <class name="testNgtutorial.Day2TestNg"/>
+      <class name ="testNgB.Day4TestNgAnnotationsPartOne"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Car Loan">
+    <classes>
+       <class name="testNgtutorial.Day3PrioritizingThetestcasesWithTestNg">
+        <methods>
+        <include name="carLoanMobileLogin" />
+        <exclude name="carLoanLoginAPI"/>
+      	</methods>
+       </class>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="Home Loan">
+    <classes>
+      <class name="testNgtutorial.Day4HomeLoan"/>
+    </classes>
+  </test>
+    <test name="Method Test Cases" >
+    <classes>
+       <class name="testNgtutorial.Day3PrioritizingThetestcasesWithTestNg">
+        <methods>
+        <include name="carLoanMobileLogin" />
+        <exclude name="carLoanLoginAPI"/>
+      </methods>
+       </class>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->
+
+
