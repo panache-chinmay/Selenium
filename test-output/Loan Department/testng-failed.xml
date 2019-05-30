@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]" parallel="classes">
+  <parameter name="URL" value="qaclickacademy.com"/>
+  <listeners>
+    <listener class-name="testNgDay4.TestNgListerners"/>
+  </listeners>
+  <test thread-count="6" name="Web Testcases(failed)" parallel="classes">
+    <classes>
+      <class name="testNgDay4.parameterizationInTestNgB">
+        <methods>
+          <include name="Testcases3"/>
+        </methods>
+      </class> <!-- testNgDay4.parameterizationInTestNgB -->
+    </classes>
+  </test> <!-- Web Testcases(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

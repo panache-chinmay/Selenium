@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Loan Department">
+<suite thread-count = "6" parallel = "classes" name="Loan Department">
 
- <!-- <parameter name = "URL" value ="qaclickacademy.com"/> -->  
-   <test name="Mobile Testcases" >
+ <listeners>
+ 		<listener class-name = "testNgDay4.TestNgListerners"/>
+ </listeners>
+
+   <parameter name = "URL" value ="qaclickacademy.com"/>   
+   <test name="Mobile Testcases" parallel = "classes" >
    <parameter name = "URL" value ="mobiletestcases.com"/>
     <classes>
        <class name="testNgDay4.parameterizationIntestNg"/>
     </classes>
   </test>
   <test name="Web Testcases" >
-  	<parameter name = "URL" value ="WebTestcases.com"/>
+  	<!--<parameter name = "URL" value ="WebTestcases.com"/>
+  	<parameter name = "URL2" value ="WebTestcases.com2"/> --> 
     <classes>
        <class name="testNgDay4.parameterizationInTestNgB"/>
     </classes>

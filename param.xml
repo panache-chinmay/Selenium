@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count = "6" parallel = "tests" name="Loan Department">
+   
+   <test name="Mobile Testcases" >
+   <parameter name ="URL" value ="Mobiletestacses.com"/> 
+    <classes>
+       <class name="testNgDay4.parameterizationInTestNgB"/>
+    </classes>
+  </test>
+  
+     <test name="Loan Testcases" >
+     <parameter name ="URL" value ="Loadtestcases.com"/> 
+    <classes>
+       <class name="testNgDay4.parameterizationIntestNg"/>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->
+
+

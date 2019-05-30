@@ -65,6 +65,14 @@ public class helpAnnotationsinTestNg {
 	}
 	
 	
+	@Test(invocationCount = 10)
+	public void testCaseSeven() {
+		
+		System.out.println();
+		
+	}
+	
+	
 	
 	
 	
