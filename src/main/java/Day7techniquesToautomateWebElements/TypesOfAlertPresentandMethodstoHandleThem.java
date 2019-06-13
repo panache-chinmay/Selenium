@@ -1,5 +1,8 @@
 package Day7techniquesToautomateWebElements;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class TypesOfAlertPresentandMethodstoHandleThem {
 
 	public static void main(String[] args) {
@@ -24,20 +27,10 @@ public class TypesOfAlertPresentandMethodstoHandleThem {
 		// 4) dismiss();
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+//		WebDriver driver ;
+//		System.setProperty("webdriver.chrome.driver","C:\\Users\\chinmay.deshpande.ZA\\Desktop\\chromedriver.exe");
+//		driver = new ChromeDriver();
 		
 		
 //		driver.get("http://www.tizag.com/javascriptT/javascriptalert.php");
