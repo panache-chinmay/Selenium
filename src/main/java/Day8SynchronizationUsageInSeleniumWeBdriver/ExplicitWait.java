@@ -62,6 +62,49 @@ public class ExplicitWait {
 		
 		
 		
+		
+		
+		// Global wait 
+//		
+//				//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//				driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
+//				//Thread.sleep(5000);
+//				driver.findElement(By.xpath("//*[@id=\"start\"]/button")).click();
+//				//driver.findElement(By.xpath("//*[@id=\"finish\"]/h4")).click();
+//				//Boolean xyc = driver.findElement(By.xpath("//*[@id=\"finish\"]/h4")).isDisplayed();
+//				
+//				//Explict weight
+//				
+//				
+//				WebDriverWait wait = new WebDriverWait(driver,20);
+//				WebElement abc = driver.findElement(By.xpath("//*[@id=\"finish\"]/h4"));
+//				wait.until(ExpectedConditions.elementToBeClickable(abc));
+//				driver.findElement(By.xpath("//*[@id=\"finish\"]/h4")).click();
+//		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
