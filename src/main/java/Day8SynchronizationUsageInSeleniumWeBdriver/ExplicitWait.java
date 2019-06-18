@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ExplicitWait {
 
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
 		
 		// One city takes 25 second to load 
