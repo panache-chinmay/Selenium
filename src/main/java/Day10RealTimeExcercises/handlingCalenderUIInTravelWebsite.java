@@ -24,7 +24,7 @@ public class handlingCalenderUIInTravelWebsite {
 		driver.findElement(By.id("travel_date")).click();
 
 
-		while(!driver.findElement(By.cssSelector("[class='datepicker-days'] [class='datepicker-switch']")).getText().contains("May"))
+		while(!driver.findElement(By.cssSelector("[class='datepicker-days'] [class='datepicker-switch']")).getText().contains("july"))
 		{
 		driver.findElement(By.cssSelector("[class='datepicker-days'] th[class='next']")).click();
 		}
