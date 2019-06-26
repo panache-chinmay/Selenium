@@ -33,7 +33,7 @@ public class TakingScreenShortasma {
 			driver.get("http://google.com");
 			
 			File src=	 ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(src,new File("C:\\Users\\rahul\\screenshot.png"));
+			FileUtils.copyFile(src,new File("C:\\Users\\chinmay\\screenshot.png"));
 			
 			// Please change to your path 
 		

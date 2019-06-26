@@ -19,6 +19,7 @@ public class HandlingHttpsCertifications {
 		
 		DesiredCapabilities ch = DesiredCapabilities.chrome();
 		//ch.acceptInsecureCerts();
+		
 		ch.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
 		ch.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		
@@ -27,7 +28,7 @@ public class HandlingHttpsCertifications {
 		ChromeOptions c = new ChromeOptions();
 		c.merge(ch);
 		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\chinmay.deshpande.ZA\\\\Desktop\\\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver(c);
 		
 		
 		

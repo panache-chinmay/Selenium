@@ -15,6 +15,7 @@ public class MaximizingBrowserandDeletingcookies {
 		driver = new ChromeDriver();
 		driver.get("https://www.cricbuzz.com/live-cricket-scorecard/20260/eng-vs-afg-match-24-icc-cricket-world-cup-2019");
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		driver.manage().deleteCookieNamed("sessionIc");
 		
 		

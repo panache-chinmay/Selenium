@@ -17,7 +17,6 @@ public class PrintLinkCountInthePage {
 		
 		// Limiting the scope of the driver 
 		
-		
 		WebDriver driver ;
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\chinmay.deshpande.ZA\\Desktop\\chromedriver.exe");
 		driver = new ChromeDriver();

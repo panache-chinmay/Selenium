@@ -9,6 +9,8 @@ public class DayOneBasicMethodsofWebDriver {
 		// TODO Auto-generated method stub
 		
 		
+		
+		
 		// Teach them the basic html and css page struture
 		
 		WebDriver driver ;
